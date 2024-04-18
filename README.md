@@ -23,15 +23,9 @@ __Test your codes before the given client program:__
                 System.out.println("Globe Data Usage Offer and price" + promo.showAllowance(globe.getTelcoName(), globe.getPromoPrice()));
                 System.out.println("Ditto Data Usage Offer and price" + promo.showAllowance(ditto.getTelcoName(), ditto.getPromoPrice()));
             
-                System.out.println("\nSmart unlimited calls and text package: " +
-            
-                                              unli.showUnliCallsTextOffer(smart.getTelcoName(), smart.getUnliCallText()));
-                System.out.println("Globe unlimited calls and text package: " +
-            
-                                              unli.showUnliCallsTextOffer(globe.getTelcoName(), globe.getUnliCallText()));
-                System.out.println("Ditto unlimited calls and text package: " +
-            
-                                               unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
+                System.out.println("\nSmart unlimited calls and text package: " + unli.showUnliCallsTextOffer(smart.getTelcoName(), smart.getUnliCallText()));
+                System.out.println("Globe unlimited calls and text package: " + unli.showUnliCallsTextOffer(globe.getTelcoName(), globe.getUnliCallText()));
+                System.out.println("Ditto unlimited calls and text package: " + unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
               }
             }
 
