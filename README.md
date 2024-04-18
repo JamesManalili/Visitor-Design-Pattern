@@ -36,3 +36,4 @@ __Test your codes before the given client program:__
             }
 
 # UML Class Diagram
+![UML Visitor Pattern](https://github.com/JamesManalili/Visitor-Design-Pattern/assets/142465145/731fa5a6-12c5-4a13-a079-990e93f3cd86)
